@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useRef } from 'react';
 import { AuthProvider } from './context/AuthContext';
-import Navbar from './components/common/Navbar';
+import Navbar from './Components/common/Navbar';
 import Homepage from './pages/Homepage';
 import Services from './pages/Services';
-import Footersection from './components/common/Footersection';
+import Footersection from './Components/common/Footersection';
 import Booking from './pages/Booking';
 import Whoweare from './pages/Whoweare';
 import Partnerwithus from './pages/Partnerwithus';

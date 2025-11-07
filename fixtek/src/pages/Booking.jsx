@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa6";
-import Footersection from "../components/common/Footersection";
-import Login from "../components/auth/Login";
-import Register from "../components/auth/Register";
+import Footersection from "../Components/common/Footersection";
+import Login from "../Components/auth/Login";
+import Register from "../Components/auth/Register";
 
 function Booking() {
   const [showLogin, setShowLogin] = useState(false);

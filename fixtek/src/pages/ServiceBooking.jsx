@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Footersection from "../components/common/Footersection";
+import Footersection from "../Components/common/Footersection";
 import { FaCalendarAlt, FaCheck } from "react-icons/fa";
 import { useNavigate } from "react-router-dom"; // ✅ import navigation hook
 

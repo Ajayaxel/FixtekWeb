@@ -1,5 +1,5 @@
 import React from 'react'
-import Footersection from "../components/common/Footersection";
+import Footersection from "../Components/common/Footersection";
 function Faqs() {
   return (
     <div>
